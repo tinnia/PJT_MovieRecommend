@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        position: relative;
+        min-height: 100%;
+        padding-bottom: 70px; 
+        /* background-color:rgba(0, 0, 0, 0.83) !important; */
+      }
+      #footer{
+        position: absolute;
+        bottom:0;
+        width:100%;
+        margin-top:20px;
+        padding-bottom: 20px;
+      }
+      * {
+        /* font-family: 'Do Hyeon', sans-serif; */
+        font-family: 'Nanum Gothic Coding', monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <footer id="footer" class="font-smaller text-secondary text-center">
+      <a class="text-decoration-none text-info" href="https://github.com/tinnia/">DasomJeong</a> & <a class="text-decoration-none text-info" href="https://github.com/#/">MyeongsooPark</a>
+      <br><small>Copyright ⓒ 2020  All Rights Reserved </small>
+    </footer>
+  </body>
+</html>
