@@ -15,6 +15,8 @@
 
 
 
+<br />
+
 
 ### 💡 팀원 정보 및 역할 분담
 
@@ -24,6 +26,7 @@
 | 박명수 | BackEnd        | Django API Server, Data Seeding 구현                      |
 
 
+<br />
 
 ### 💡 목표 서비스 구현 및 실제 구현 정도
 
@@ -47,6 +50,8 @@
 * AWS , Ubunta를 활용한 서비스 배포
 
 
+<br />
+
 
 ### 💡 프로젝트 과정
 
@@ -60,6 +65,8 @@
 | 20.06.17 | Movie 기능 추가 및 화면 설계(Pagination, 기준별 조회), UCC와 PPT 작업 |
 | 20.06.18 | 오류 수정 및 디자인 추가 작업, 배포 시도..                   |
 
+
+<br />
 
 
 ### 💡 개발 환경
@@ -97,6 +104,7 @@
 Ubuntu / Amazon Linux 
 
 
+<br />
 
 ### 💡 프로젝트 폴더 구조
 
@@ -198,12 +206,16 @@ Ubuntu / Amazon Linux
 ```
 
 
+<br />
+
 
 ### 💡 ERD
 
 ![](README.assets/KakaoTalk_20200905_181436556.jpg)
 
 
+
+<br />
 
 ### 💡 기능
 
@@ -232,6 +244,8 @@ Ubuntu / Amazon Linux
 * 자신의 리뷰에서 댓글을 통해 다른 유저들과 소통 가능
 
   
+
+<br />
 
 
 
@@ -270,6 +284,8 @@ Ubuntu / Amazon Linux
 ![](README.assets/review_detail.png)
 
 
+
+<br />
 
 
 
