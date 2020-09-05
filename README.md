@@ -14,6 +14,34 @@
 
 
 
+<br />
+
+### 💡 Local 실행 방법
+
+git clone 후 해야하는 작업
+
+#### FrontEnd
+
+```sh
+$ npm install
+$ npm run serve
+```
+
+#### BackEnd
+
+```sh
+$ python -m venv venv
+$ source venv/Scripts/activate
+$ pip install -r requirements.txt
+$ python manage.py migrate	
+$ python manage.py createsuperuser
+$ python manage.py runserver
+$ python manage.py loaddata {data.json}		# data.json = moviedata.json
+$ python manage.py collectstatic
+```
+
+
+
 
 <br />
 
